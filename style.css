@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  /* Navbar */
+  header {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Hero */
+  .hero {
+    height: 450px;
+    padding: 30px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 35px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  /* Features */
+  .features {
+    padding: 40px 20px;
+  }
+
+  .feature-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* Student Section */
+  .student-section {
+    padding: 40px 20px;
+  }
+
+  /* Teacher Section */
+  .teacher-section {
+    padding: 40px 20px;
+  }
+
+  /* Course Section */
+  .course-section {
+    padding: 40px 20px;
+  }
+
+  /* Contact */
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  /* Forms */
+  .student-form,
+  .course-form {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  /* Tables */
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 25px 15px;
+  }
+}
